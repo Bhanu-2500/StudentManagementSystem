@@ -1,0 +1,268 @@
+﻿<Window x:Class="StudentManagementSystem.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent" WindowState="Maximized">
+    <Window.Resources>
+        <Style x:Key="window-control-button" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="btnborder" Width="30" Height="30" CornerRadius="15" >
+                            <Icon:PackIconMaterial x:Name="btnimg" Kind="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}},Path=Tag}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="btnborder" Value="{StaticResource background-white}"/>
+                                <Setter Property="Foreground" TargetName="btnimg" Value="{StaticResource background-grey}"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="BorderBrush" TargetName="btnborder" Value="{StaticResource background-white}"/>
+                                <Setter Property="BorderThickness" TargetName="btnborder" Value="2"/>
+                                <Setter Property="Background" TargetName="btnborder" Value="Transparent"/>
+                                <Setter Property="Foreground" TargetName="btnimg" Value="{StaticResource background-white}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="custom-mainWindow-button" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="btnborder" Width="Auto" Height="30" CornerRadius="15" HorizontalAlignment="Center">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterialDesign x:Name="btnimg" Kind="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}},Path=Tag}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15 0 10 0"/>
+                                    <TextBlock x:Name="btntext" Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}},Path=Content}" Margin="0 0 15 0"/>
+                                </StackPanel>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="BorderBrush" TargetName="btnborder" Value="{StaticResource background-white}"/>
+                                    <Setter Property="BorderThickness" TargetName="btnborder" Value="2"/>
+                                    <Setter Property="Background" TargetName="btnborder" Value="{StaticResource background-white}"/>
+                                    <Setter Property="Foreground" TargetName="btnimg" Value="{StaticResource background-grey}"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="False">
+                                    <Setter Property="BorderBrush" TargetName="btnborder" Value="{StaticResource background-white}"/>
+                                    <Setter Property="BorderThickness" TargetName="btnborder" Value="2"/>
+                                    <Setter Property="Foreground" TargetName="btntext" Value="{StaticResource background-white}"/>
+                                    <Setter Property="Foreground" TargetName="btnimg" Value="{StaticResource background-white}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+    </Window.Resources>
+    <Grid Background="{StaticResource background-grey}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--#region Title Row and Window Control Buttons -->
+        <Grid Grid.Row="0">
+           <Grid.ColumnDefinitions>
+               <ColumnDefinition Width="*"/>
+               <ColumnDefinition Width="Auto"/>
+               <ColumnDefinition Width="Auto"/>
+           </Grid.ColumnDefinitions>
+            <!--#region Title -->
+            <Border Grid.Column="0" BorderThickness="0" >
+                <TextBlock Text="Student Managemant System" FontSize="48" HorizontalAlignment="Center" Margin=" 0 10 0 10" Foreground="{StaticResource background-white}"/>
+            </Border>
+            <!--#endregion-->
+            <!--#region WindowMinimize button -->
+            <Button Grid.Column="1"  Command="{Binding WindowControlCommand}" CommandParameter="minimize" VerticalAlignment="Center" 
+                    Style="{StaticResource window-control-button}" Tag="WindowMinimize"/>
+            <!--#endregion-->
+            <!--#region Window close button -->
+            <Button Grid.Column="2" Command="{Binding WindowControlCommand}" CommandParameter="close" Margin="10 0 20 0"
+                    Style="{StaticResource window-control-button}" Tag="close"/>
+            <!--#endregion-->
+        </Grid>
+         <!--#endregion-->
+        <Separator Grid.Row="1" Margin="400 0 489 10"/>
+        <!--#region Search Bar and Add new Student Button-->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <!--#region Search Bar -->
+            <Border Grid.Column="0" BorderBrush="{StaticResource background-white}"
+                    BorderThickness="1.7" Height="30" Width="200" CornerRadius="15" Margin="20 10 30 10">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBox Width="150" BorderThickness="0" FontSize="16" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                             Background="Transparent" Foreground="{StaticResource background-white}" TextAlignment="Left" Margin="10 0"/>
+                    <Icon:PackIconMaterialDesign Kind="Search" Foreground="{StaticResource background-white}" VerticalAlignment="Center" Margin=" 0 0 10 0"/>
+                </StackPanel>
+            </Border>
+            <!--#endregion-->
+            <!--#region Not Found Student Text -->
+            <TextBlock Grid.Column="1" Text="No items match your search." FontSize="20" Foreground="{StaticResource background-white}"
+                       Visibility="{Binding NotItemFoundTextVisibility}"/>
+            <!--#endregion-->
+            <!--#region Add New Student Button -->
+            <Button Grid.Column="2" Command="{Binding AddNewStudentCommand}" Margin="60 0 30 0"
+                    Style="{StaticResource custom-mainWindow-button}" Tag="AddCircle" Content="Add New User"/>
+            <!--#endregion-->
+            </Grid>
+        <!--#endregion-->
+        <Border Grid.Row="3" Margin="0 10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <!--#region Student Listing View -->
+                <ListView ItemsSource="{Binding FillteredStudents}" Padding="10 10 0 0" BorderThickness="0"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled" MaxHeight="720" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <ListView.Background>
+                        <ImageBrush ImageSource="/Images/Backgroundpic.jpg" Opacity="0.2"/>
+                    </ListView.Background>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate>
+                                        <Border Width="280" Background="{StaticResource background-grey}" Height="Auto" Margin="7" CornerRadius="29">
+                                            <Grid Grid.IsSharedSizeScope="True" HorizontalAlignment="Left" >
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                    <RowDefinition Height="Auto"/>
+                                                </Grid.RowDefinitions>
+                                                <!--#region student-profile-picture -->
+                                                <Border Grid.Row="0" Margin="0 20 0 10" BorderBrush="{StaticResource background-white}" BorderThickness="3" Width="120" Height="120" CornerRadius="60">
+                                                    <Border Width="100" Height="100" CornerRadius="50" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                        <Border.Background>
+                                                            <ImageBrush ImageSource="{Binding ImagePath}"/>
+                                                        </Border.Background>
+                                                    </Border>
+                                                </Border>
+                                                <!--#endregion-->
+                                                <!--#region student-ID -->
+                                                <Grid Grid.Row="1" Margin="0 5">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition SharedSizeGroup="A"/>
+                                                        <ColumnDefinition SharedSizeGroup="B"/>
+                                                        <ColumnDefinition SharedSizeGroup="C"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Text="Student ID" Grid.Column="0" Foreground="{StaticResource background-white}" Margin="30 0 0 0"/>
+                                                    <TextBlock Text="   :   " Grid.Column="1" Foreground="{StaticResource background-white}"/>
+                                                    <TextBlock Text="{Binding Id}" Grid.Column="2" Foreground="{StaticResource background-white}"/>
+                                                </Grid>
+                                                <!--#endregion-->
+                                                <!--#region student-firstname -->
+                                                <Grid Grid.Row="2" Margin="0 5">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition SharedSizeGroup="A"/>
+                                                        <ColumnDefinition SharedSizeGroup="B"/>
+                                                        <ColumnDefinition SharedSizeGroup="C"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Text="First Name" Grid.Column="0" Foreground="{StaticResource background-white}" Margin="30 0 0 0"/>
+                                                    <TextBlock Text="   :   " Grid.Column="1" Foreground="{StaticResource background-white}"/>
+                                                    <TextBlock Text="{Binding FirstName}" Grid.Column="2" Foreground="{StaticResource background-white}"/>
+                                                </Grid>
+                                                <!--#endregion-->
+                                                <!--#region student-lastname -->
+                                                <Grid Grid.Row="3" Margin="0 5">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition SharedSizeGroup="A"/>
+                                                        <ColumnDefinition SharedSizeGroup="B"/>
+                                                        <ColumnDefinition SharedSizeGroup="C"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Text="Last Name" Grid.Column="0" Foreground="{StaticResource background-white}" Margin="30 0 0 0"/>
+                                                    <TextBlock Text="   :   " Grid.Column="1" Foreground="{StaticResource background-white}"/>
+                                                    <TextBlock Text="{Binding LastName}" Grid.Column="2" Foreground="{StaticResource background-white}"/>
+                                                </Grid>
+                                                <!--#endregion-->
+                                                <!--#region student-birthday -->
+                                                <Grid Grid.Row="4" Margin="0 5">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition SharedSizeGroup="A"/>
+                                                        <ColumnDefinition SharedSizeGroup="B"/>
+                                                        <ColumnDefinition SharedSizeGroup="C"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Text="Day of Birth" Grid.Column="0" Foreground="{StaticResource background-white}" Margin="30 0 0 0"/>
+                                                    <TextBlock Text="   :   " Grid.Column="1" Foreground="{StaticResource background-white}"/>
+                                                    <TextBlock Text="{Binding DoB, StringFormat={}{0:dd-MM-yyyy}}" Grid.Column="2" Foreground="{StaticResource background-white}"/>
+                                                </Grid>
+                                                <!--#endregion-->
+                                                <!--#region student-gpa-value -->
+                                                <Grid Grid.Row="5" Margin="0 5">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition SharedSizeGroup="A"/>
+                                                        <ColumnDefinition SharedSizeGroup="B"/>
+                                                        <ColumnDefinition SharedSizeGroup="C"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Text="Gpa Value" Grid.Column="0" Foreground="{StaticResource background-white}" Margin="30 0 0 0"/>
+                                                    <TextBlock Text="   :   " Grid.Column="1" Foreground="{StaticResource background-white}"/>
+                                                    <TextBlock Text="{Binding GpaValue,StringFormat={}{0:F4}}" Grid.Column="2" Foreground="{StaticResource background-white}"/>
+                                                </Grid>
+                                                <!--#endregion-->
+                                                <!--#region student-department-details -->
+                                                <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Left" Margin="30 0 0 0">
+                                                    <Border BorderBrush="{StaticResource background-white}" BorderThickness="2" CornerRadius="10"  Margin="0 10 10 10" >
+                                                        <Border Height="35" Width="35" Margin="5" >
+                                                            <Border.Background>
+                                                                <ImageBrush ImageSource="{Binding Department.ImagePath}"/>
+                                                            </Border.Background>
+                                                        </Border>
+                                                    </Border>
+                                                    <TextBlock Text="{Binding Department.Name}" Foreground="{StaticResource background-white}" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                                <!--#endregion-->
+                                                <Separator Grid.Row="7" Margin="20 5 10 0"/>
+                                                <StackPanel Grid.Row="8" Orientation="Horizontal" Width="280" Margin="0 15">
+                                                    <!--#region Edit Button -->
+                                                    <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}},Path=DataContext.EditStudentCommand}" 
+                                                            CommandParameter="{Binding Id}" Style="{StaticResource custom-mainWindow-button}" Tag="Edit" Content="Edit" Margin="25 0 0 0"/>
+                                                    <!--#endregion-->
+                                                    <!--#region Delete Button -->
+                                                    <Button Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}},Path=DataContext.DeleteStudentCommand}" 
+                                                            CommandParameter="{Binding Id}" Style="{StaticResource custom-mainWindow-button}"
+                                                            Tag="Remove" Content="Remove" Margin="30 0 0 0"/>
+                                                    <!--#endregion-->
+                                                </StackPanel>
+                                            </Grid>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <!--using wrap panel as a panel template, wrap listview items around the list view area-->
+                            <WrapPanel/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                </ListView>
+                <!--#endregion-->
+            </Grid>
+        </Border>
+    </Grid>
+
+</Window>

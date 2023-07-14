@@ -1,0 +1,120 @@
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.exe
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.deps.json
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.runtimeconfig.json
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.pdb
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.AssemblyReference.cache
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem_MarkupCompile.cache
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.g.resources
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.AssemblyInfoInputs.cache
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.AssemblyInfo.cs
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.CopyComplete
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\refint\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.pdb
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.genruntimeconfig.cache
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\ref\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\MainWindowView.g.cs
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\MainWindowView.baml
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\AddNewStudent.g.cs
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\AddNewStudent.baml
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\App.baml
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\EditUserWindow.baml
+C:\Users\bhanu\Desktop\New folder (4)\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\EditUserWindow.g.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.exe
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.deps.json
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.runtimeconfig.json
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\StudentManagementSystem.pdb
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.AssemblyReference.cache
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\AddNewStudent.baml
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\EditUserWindow.baml
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\MainWindowView.baml
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\App.baml
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\AddNewStudent.g.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\EditUserWindow.g.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\Views\MainWindowView.g.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem_MarkupCompile.cache
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.g.resources
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.AssemblyInfoInputs.cache
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.AssemblyInfo.cs
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.csproj.CopyComplete
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\refint\StudentManagementSystem.dll
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.pdb
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\StudentManagementSystem.genruntimeconfig.cache
+C:\Users\bhanu\Desktop\StudentManagementSystem\StudentManagementSystem\obj\Debug\net6.0-windows\ref\StudentManagementSystem.dll

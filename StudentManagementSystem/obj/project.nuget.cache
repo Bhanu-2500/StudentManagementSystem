@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hftNEGE39oV/hbOp2T5pfzFrt2QewSL/lU5LmofroR7uAnR6a7gAE0ntWc2nKubDaA1ZpnoyKZS4zf838fHWbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bhanu\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bhanu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\bhanu\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
